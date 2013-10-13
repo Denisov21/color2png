@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>Color &rarr; PNG &rarr; data-URI</title>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <link rel=stylesheet media="screen" href="includes/css/default.css">
+</head>
+<body>
+  
+  <div class=wrapper>
+    <h1>Color &rarr; PNG &rarr; data-URI</h1>
+  
+    <form>
+      <ul>
+        <li>
+          <label for=color>What color:</label>
+          <input type=text id=color name=color size=20 value="rgba(0,0,0,.5)">
+          <span id=example title="This is the color you typed in"></span>
+        <li>
+          <label for=result>Use this in CSS:</label>
+          <input type=text id=result size=40 readonly>
+        <li>
+          <label for=result>Example:</label>
+          <div id=css></div>
+      </ul>
+    </form>
+    
+    <h2>What's this?</h2>
+    <p>Converts a color into a 1x1 pixel PNG represented by a data-URI. That's it.</p>
+    <h2>What for?</h2>
+    <p>Because IE7 and IE8 don't support rgba() backgrounds, but they do support PNG and data-URI's.</p>
+    <h2>How to work this tool:</h2>
+    <p>Just type or paste in any valid color, and it'll be converted into a PNG. No need to press the convert button.</p>
+  </div>
+  
+  <canvas id=canvas width=1 height=1></canvas>
+  
+  <script src="includes/js/default.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Reset */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, abbr, acronym, em, img, strong, sub, sup, ol, ul, li, fieldset, form, label { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; }
+html { font-family: small; font-size: 87.5%; }
+body, input, select, textarea, button { font: 100%/1.4 Arial,helvetica,sans-serif; outline: 0; }
+input, button, select, textarea { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+input[type=search] { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; }
+input[type=date]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-input-list-button { display: none; }
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+table, caption, tbody, tfoot, thead, tr, th, td {	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+table {	border-collapse: collapse; border-spacing: 0; }
+::-moz-focus-inner { outline: 0; border: 0; }
+a:active { background: inherit; } /* IE10 fix */
+
+
+
+body { padding: 1em; }
+.wrapper { max-width: 60em; margin: 0 auto; }
+input, textarea, #css { font: 1em Consolas,'Courier New',Courier,monospace; padding: .2em; border: solid 1px silver; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+form { padding: 1em 0; border: solid blue; border-width: 1px 0; }
+form li { position: relative; clear: both; list-style: none; overflow: hidden; margin: .5em 0; }
+form label { display: block; float: left; width: 20%; margin-top: .2em; }
+#css { display: inline-block; color: gray; white-space: pre; min-height: 1.8em; }
+#example { display: inline-block; vertical-align: middle; height: 1.2em; padding-left: 1.2em; border: solid 1px silver; margin-left: .2em; }
+#result, #css { width: 80%; }
+canvas { display: none; }
+
+h1,h2 { font-size: 1em; font-weight: bold; margin: 1em 0; }
+h1 { font-size: 1.2em; margin-top: 0; }
