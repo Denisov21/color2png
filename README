@@ -1,0 +1,1 @@
+color2png is a small webapp that converts a color (any CSS-syntax) to a 1x1 pixel PNG. This was primarily meant to use with rgba() and hsla() colors, using the 1x1 pixel PNG in old browsers that don't support such color notations.
